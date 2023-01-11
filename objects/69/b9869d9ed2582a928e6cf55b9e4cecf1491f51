@@ -1,0 +1,12 @@
+[module "aeed691b-04a2-3155-a183-6fc01c44ba76"]
+	conflict = request-pull
+	path = module
+	pull = merge rebase
+	pull = squash always
+	ref = if refs/heads/master sync refs/heads/wamp-sync-bug
+	url = agnostic://gh/515191848
+[map "0566da38-842c-39a0-94de-5a74208eae9e"]
+	object = d14bae7f341d5eb85e00aed6cc35aac81038a1a3
+	path = module
+	stage = sync
+	type = extract module
